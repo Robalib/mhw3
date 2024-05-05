@@ -235,8 +235,8 @@ function onTokenResponse(response)
   return response.json();
 }
 
-const client_id = '7448ebc7b9884734be94f6cc82d2f1db';
-const client_secret = 'e0c727e6451f4492b224dc0b504e52c3';
+const client_id = 'xxxxxxxxxxxxxxxxxxxx';
+const client_secret = 'xxxxxxxxxxxxxxxxxxxx';
 let token;
 fetch("https://accounts.spotify.com/api/token",
 	{
